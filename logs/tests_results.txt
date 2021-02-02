@@ -10,13 +10,13 @@ FAIL: test_get_number_of_words (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 81, in test_get_number_of_words
     "Mauvais calcul du nombre d'occurence du mot"
-AssertionError: Lists differ: [None, None, None] != [2, 0, 1]
+AssertionError: Lists differ: [0, 0, 0] != [2, 0, 1]
 
 First differing element 0:
-None
+0
 2
 
-- [None, None, None]
+- [0, 0, 0]
 + [2, 0, 1] : Mauvais calcul du nombre d'occurence du mot
 
 ======================================================================
